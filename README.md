@@ -7,7 +7,7 @@ Here's a detailed **GitHub description** for your **Finance Performance Dashboar
 **Created using Power BI**  
 
 ### **Overview**  
-This **Finance Performance Dashboard** provides a comprehensive analysis of financial performance across multiple products and regions. The dashboard is divided into **two sections**:  
+This **Finance Performance Dashboard** provides a comprehensive analysis of financial performance across multiple products and regions. The dashboard is divideds into **two sections**:  
 ✅ **Overall Performance Analysis** (First 2 slides)  
 ✅ **Product-wise Analysis** (Laptops, Accessories, Tablets & Smartphones)  
 
