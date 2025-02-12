@@ -34,6 +34,7 @@ This **Finance Performance Dashboard** provides a comprehensive analysis of fina
 - **Top-Selling Products & Locations** 🏆  
 
 ---
+### **Dax Queries ** [Performed here].
 
 ### **Product-Wise Insights & Conclusion**  
 
