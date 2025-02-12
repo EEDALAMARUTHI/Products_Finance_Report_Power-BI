@@ -35,6 +35,12 @@ This **Finance Performance Dashboard** provides a comprehensive analysis of fina
 
 ---
 ### **Dax Queries ** [Performed here].
+- Page-1
+- Revenue_Amount = SUM(Sheet1[Revenue (USD)]).
+- Average_Revenue = AVERAGE(Sheet1[Revenue (USD)]).
+- Total_transactions = COUNT(Sheet1[First Name]).
+- Total_country's = DISTINCTCOUNT(Sheet1[Country]).
+- Total_Regions = DISTINCTCOUNT(Sheet1[Region]).
 
 ### **Product-Wise Insights & Conclusion**  
 
