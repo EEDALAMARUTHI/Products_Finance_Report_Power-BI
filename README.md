@@ -35,13 +35,32 @@ This **Finance Performance Dashboard** provides a comprehensive analysis of fina
 
 ---
 ### **Dax Queries ** [Performed here].
-- Page-1
+**Page-1**
 - Revenue_Amount = SUM(Sheet1[Revenue (USD)]).
 - Average_Revenue = AVERAGE(Sheet1[Revenue (USD)]).
 - Total_transactions = COUNT(Sheet1[First Name]).
 - Total_country's = DISTINCTCOUNT(Sheet1[Country]).
 - Total_Regions = DISTINCTCOUNT(Sheet1[Region]).
+- Country% = DIVIDE([Revenue_Amount],[Country_wise_Revenue],0)
+- Product_Revenue% = DIVIDE([Revenue_Amount],[Total_Revenue_Product],0)
+**Laptop**
+- Laptop_Revenue = CALCULATE(SUM(Sheet1[Revenue (USD)]),Sheet1[Products]="Laptops")
+- Laptop_Avg_Revenue = CALCULATE(AVERAGE(Sheet1[Revenue (USD)]),Sheet1[Products]="Laptops")
+- Laptop_Reveneu_% = DIVIDE([Laptop_Revenue],[Revenue_Amount],0)
+**Assessories**
+- Accessories_Revenu = CALCULATE(SUM(Sheet1[Revenue (USD)]),Sheet1[Products]="Assessories")
+- Accessories% = DIVIDE(Accessories[Accessories_Revenu],[Revenue_Amount],0)
+- Avg_Accessories_Revenue = CALCULATE(AVERAGE(Sheet1[Revenue (USD)]),Sheet1[Products]="Assessories")
+**Smartphones**
+- SmartPhones_Revenue = CALCULATE(SUM(Sheet1[Revenue (USD)]),Sheet1[Products]="Smartphones")
+- Smartphones_Avg = CALCULATE(AVERAGE(Sheet1[Revenue (USD)]),Sheet1[Products]="Smartphones")
+- Smartphones_% = DIVIDE(SmartPhones[SmartPhones_Revenue],[Revenue_Amount],0)
+**Tablets**
+- Tablets_Revenue = CALCULATE(SUM(Sheet1[Revenue (USD)]),Sheet1[Products]="Tablets")
+- Tablets_Avg_Revenue = CALCULATE(AVERAGE(Sheet1[Revenue (USD)]),Sheet1[Products]="Tablets")
+- Tablets% = DIVIDE([Tablets_Revenue],[Revenue_Amount],0)
 
+  
 ### **Product-Wise Insights & Conclusion**  
 
 ✔ **Laptops** 💻  
@@ -65,14 +84,3 @@ This **Finance Performance Dashboard** provides a comprehensive analysis of fina
 - Competitive pricing leads to revenue variations.  
 
 ---
-
-### **How to Use This Project?**  
-1. Download the **Power BI file (`.pbix`)**.  
-2. Open in **Power BI Desktop**.  
-3. Explore **interactive dashboards** and analyze insights.  
-
-📌 **Repository Link:** _[Add your GitHub link here]_  
-
----
-
-Would you like me to refine this further or add more details? 🚀
