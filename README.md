@@ -43,18 +43,22 @@ This **Finance Performance Dashboard** provides a comprehensive analysis of fina
 - Total_Regions = DISTINCTCOUNT(Sheet1[Region]).
 - Country% = DIVIDE([Revenue_Amount],[Country_wise_Revenue],0)
 - Product_Revenue% = DIVIDE([Revenue_Amount],[Total_Revenue_Product],0)
+  
 **Laptop**
 - Laptop_Revenue = CALCULATE(SUM(Sheet1[Revenue (USD)]),Sheet1[Products]="Laptops")
 - Laptop_Avg_Revenue = CALCULATE(AVERAGE(Sheet1[Revenue (USD)]),Sheet1[Products]="Laptops")
 - Laptop_Reveneu_% = DIVIDE([Laptop_Revenue],[Revenue_Amount],0)
+  
 **Assessories**
 - Accessories_Revenu = CALCULATE(SUM(Sheet1[Revenue (USD)]),Sheet1[Products]="Assessories")
 - Accessories% = DIVIDE(Accessories[Accessories_Revenu],[Revenue_Amount],0)
 - Avg_Accessories_Revenue = CALCULATE(AVERAGE(Sheet1[Revenue (USD)]),Sheet1[Products]="Assessories")
+  
 **Smartphones**
 - SmartPhones_Revenue = CALCULATE(SUM(Sheet1[Revenue (USD)]),Sheet1[Products]="Smartphones")
 - Smartphones_Avg = CALCULATE(AVERAGE(Sheet1[Revenue (USD)]),Sheet1[Products]="Smartphones")
 - Smartphones_% = DIVIDE(SmartPhones[SmartPhones_Revenue],[Revenue_Amount],0)
+  
 **Tablets**
 - Tablets_Revenue = CALCULATE(SUM(Sheet1[Revenue (USD)]),Sheet1[Products]="Tablets")
 - Tablets_Avg_Revenue = CALCULATE(AVERAGE(Sheet1[Revenue (USD)]),Sheet1[Products]="Tablets")
